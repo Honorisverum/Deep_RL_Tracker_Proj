@@ -286,7 +286,7 @@ def compute_loss(rewards, baselines, net_out, predictions):
 
 
 
-for epoch in range(1,epochs+1):
+for epoch in range(1, epochs + 1):
 
     # initial frame num for print info
     frame_num = 1
